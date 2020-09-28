@@ -1,5 +1,5 @@
-# sweet-eats-bakery-page
-## a landing page for a cup cake company that utilizes HTML, and CSS
+# Sweet Eats Bakery Page
+## A landing page for a cup cake company that utilizes HTML, and CSS
 ### [View on Codepen(Semantic HTML Only)](https://codepen.io/jamesthomasv/pen/ZEWZrGp)
 
 ### [View on Github Pages (Semantic HTML + CSS)](https://jaythomasv29.github.io/sweet-eats-bakery-page/) 
