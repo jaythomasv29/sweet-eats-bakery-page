@@ -68,7 +68,7 @@ body {
     margin: 0 auto;
   }
   
-  .container header nav a {
+  .container header nav a, footer a {
     margin: 0 10px;
     border: 1px solid lightgray;
     padding: 20px;
@@ -82,7 +82,7 @@ body {
     
   }
   
-  .container header nav a:hover {
+  .container header nav a:hover, footer a:hover {
     color: pink;
     background-color: white;
   /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
@@ -143,7 +143,7 @@ body {
   
   /*======= Create a hover state for the anchor tag in the footer nav to have the following styles: */
   footer a:hover { 
-    color: white;
+    color: pink;
   }
   
   footer .footer-content .copyright {

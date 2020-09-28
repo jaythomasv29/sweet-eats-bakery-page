@@ -1,0 +1,59 @@
+body {
+    color: #3C373B;
+}
+
+.container {
+    /*======= create a width property. Set the value to 600px */
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container header nav a,
+footer a {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    /*======= create a background property. Set the value to #F87B99 */
+    background-color: #f87b99;
+}
+
+.container header nav a:hover {
+    color: pink;
+    background-color: white;
+    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+}
+
+h1 {
+    font-family: 'Gaegu', cursive;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 60px;
+    /*=======  Update the font size to 60px and center the text */
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+.gallery img {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    height: auto;
+    width: 49%
+}
+
+.gallery img:hover {
+    opacity: 0.9;
+}
